@@ -22,7 +22,7 @@ class TerritoriesController < ApplicationController
   private
 
   def territory_params
-    params.permit(:player_id, :power)
+    params.permit(:player_id, :power, :active)
   end
 
 end
