@@ -1,8 +1,8 @@
 Player.destroy_all
 Territory.destroy_all
 
-p1 = Player.create(name: "Phil")
-p2 = Player.create(name: "Shannon")
+Player.create(name: "Phil")
+Player.create(name: "Shannon")
 
 t1 = Territory.create(name: "People's Republic of Chine", player_id: 2, power: 5)
 t2 = Territory.create(name: "Jamestown", player_id: 1, power: 5)
@@ -95,17 +95,3 @@ Neighbor.create(base_id: 21, neighbor_id: 19)
 Neighbor.create(base_id: 21, neighbor_id: 20)
 Neighbor.create(base_id: 21, neighbor_id: 22)
 Neighbor.create(base_id: 22, neighbor_id: 21)
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
